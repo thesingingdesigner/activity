@@ -1,0 +1,80 @@
+/*
+ * Global Styles
+ */
+ body {
+  background: #ffffff;
+  margin: 0px;
+  width: 100%;
+  margin: 0px auto;
+  font-family: "Lato";
+}
+
+a {
+  text-decoration: none;
+  color: #F57F1D;
+}
+
+.primary-color-family {
+  color: #F57F1D;
+}
+
+
+/*
+ * Navigation Component
+ */
+ nav#menu {
+  color: #FFF;
+  background:#2B2B2B;
+  text-align: center;
+  font-size:0.85em;
+}
+
+nav#menu ul {
+  list-style: none;
+  display: inline-flex;
+  padding: 0px;
+  margin: 0px;
+  line-height: 50px;
+  text-align: center;
+}
+
+nav#menu ul li {
+  padding: 0px 20px;
+  text-align: center;
+}
+
+nav#menu a {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  nav#menu ul {
+    line-height: 40px;
+  }
+  nav#menu ul li {
+    padding: 0px 30px;
+  }
+}
+
+@media (max-width: 576px) { 
+  nav#menu ul {
+    line-height: 50px;
+    width: 340px;
+  }
+  nav#menu ul li {
+    padding: 0px 5px;
+  }
+ }
+
+
+@media (max-width: 576px) {
+  .contact {
+    width: 340px;
+    background-position: left;
+  }
+  .contact_content {
+    padding-left: 20px;
+    width: 65%;
+    padding-top: 20px;
+  }
+ }
