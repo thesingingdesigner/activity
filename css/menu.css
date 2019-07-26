@@ -50,31 +50,22 @@ nav#menu a {
 @media (max-width: 768px) {
   nav#menu ul {
     line-height: 40px;
+    max-width: 768px;
   }
   nav#menu ul li {
-    padding: 0px 30px;
+    padding: 0px 20px;
   }
 }
 
-@media (max-width: 576px) { 
-  nav#menu ul {
-    line-height: 50px;
-    width: 340px;
-  }
-  nav#menu ul li {
-    padding: 0px 5px;
-  }
- }
-
 
 @media (max-width: 576px) {
-  .contact {
-    width: 340px;
-    background-position: left;
+  nav#menu ul {
+    line-height: 50px;
+    max-width: 576px;
+    background: url(/img/burger_icon.png);
+    background-size: 12px;
   }
-  .contact_content {
-    padding-left: 20px;
-    width: 65%;
-    padding-top: 20px;
+  nav#menu ul li {
+    padding: 0px 10px;
   }
  }

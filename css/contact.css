@@ -23,6 +23,7 @@ a {
 .contact {
   width: 100%;
   height: 600px;
+  margin: 0px auto;
 }
 
 div#imageonly {
@@ -48,12 +49,20 @@ div#imageonly {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .contact {
+    width: 100%;
+  }
+  .contact_content {
+    padding-left: 20px;
+    width: 65%;
+    padding-top: 20px;
+  }
+ }
+
 @media (max-width: 576px) {
   .contact {
-    width: 340px;
-    background-position: left;
-    background:url(img/burger_icon.png);
-    content: " ";
+    width: 100%;
   }
   .contact_content {
     padding-left: 20px;
